@@ -28,6 +28,7 @@ body {
   background-image: url("bg.png");
   background-repeat: no-repeat;
   background-position: bottom center;
+  background-size: cover;
 }
 
 a,
@@ -61,11 +62,11 @@ a:hover,
   font-size: 18px;
   z-index: 2;
   position: relative;
-  padding-left: 116px;
 }
 
 #header .logo {
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: -0.03em;
 }
 
 #header .inner {
@@ -77,4 +78,88 @@ a:hover,
 #header li {
   display: inline;
   padding-left: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: -0.03em;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#hero {
+  margin: 32px auto;
+}
+
+.text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  /* or 64px */
+
+  letter-spacing: -0.05em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+img {
+  width: 120%; /* or any custom size */
+  height: 120%;
+  justify-content: center;
+  margin-left: -72px;
+  margin-top: 64px;
+}
+
+#download {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 32px;
+  margin: 0 auto;
+  width: 720px;
+  bottom: 0px;
+}
+
+.p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  /* or 18px */
+
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding-bottom: 16px;
+}
+
+.padded {
+  padding: 64px;
+}
+
+.info {
+  height: 64px;
+  background: #000000;
+  border-radius: 16px;
+  color: white;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+  letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infotext,
+.dl {
+  padding: 0 32px;
 }
