@@ -27,5 +27,54 @@ body {
   background-color: #fff;
   background-image: url("bg.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
+}
+
+a,
+.hover {
+  color: inherit;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+a:hover,
+.hover:hover {
+  opacity: 0.75;
+}
+
+.anchor {
+  cursor: pointer;
+}
+
+.inner {
+  width: 720px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 128px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  z-index: 2;
+  position: relative;
+  padding-left: 116px;
+}
+
+#header .logo {
+  font-weight: 600;
+}
+
+#header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header li {
+  display: inline;
+  padding-left: 16px;
 }
