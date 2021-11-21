@@ -109,10 +109,10 @@ a:hover,
 }
 
 img {
-  width: 120%; /* or any custom size */
-  height: 120%;
+  width: 110%; /* or any custom size */
+  height: 110%;
   justify-content: center;
-  margin-left: -72px;
+  margin-left: -36px;
   margin-top: 64px;
 }
 
