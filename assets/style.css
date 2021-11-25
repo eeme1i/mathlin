@@ -27,7 +27,7 @@ body {
   background-color: #fff;
   background-image: url("bg.png");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -92,7 +92,7 @@ a:hover,
 }
 
 #hero {
-  margin: 32px auto;
+  margin: auto;
 }
 
 .text {
@@ -105,7 +105,7 @@ a:hover,
 
   letter-spacing: -0.05em;
 
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 img {
